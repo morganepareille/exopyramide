@@ -1,13 +1,9 @@
+puts "Voici la liste des 50 emails"
 
-email = [jean.dupont.1@gmail.fr]
-
-i = 1
-email = ["jean.dupont#{i}@gmail.fr"]
+email_list = []
+i= 1
 
 while (i <= 50)
-	email <<"jean.dupont.#{i}@gmail.fr"
-
-i +=1
-
+    email_list << "jean.dupont.#{i}@email.fr"
 end
-
+    i=i+1
